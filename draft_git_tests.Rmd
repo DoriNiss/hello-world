@@ -1,0 +1,36 @@
+---
+jupyter:
+  jupytext:
+    formats: ipynb,Rmd
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.13.0
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+```{python}
+# # !pip install jupytext --upgrade
+```
+
+```{python}
+x = np.arange(-1000,1000)
+y = x*x
+```
+
+```{python}
+plt.plot(x,y)
+```
+
+```{python}
+
+```
